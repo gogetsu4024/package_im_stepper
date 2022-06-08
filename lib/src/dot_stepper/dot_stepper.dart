@@ -84,7 +84,7 @@ class DotStepper extends StatefulWidget {
   }) {
     assert(dotCount >= 2, 'It does not make sense to have less than 2 dots.');
 
-    assert(dotRadius >= 2.0, 'The minimum value allowed for dot radius is 6.0');
+    assert(dotRadius >= 2.0, 'The minimum value allowed for dot radius is 2.0');
 
     assert(spacing >= 0.0, 'spacing must be greater than or equal to 0.0');
 
